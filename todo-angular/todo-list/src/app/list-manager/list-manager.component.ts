@@ -36,7 +36,7 @@ export class ListManagerComponent implements OnInit {
   }
 
   private updateList() {
-    this.todoList = this.listService.getTodoList();
+   this.todoList = this.listService.getTodoList();
   }
 
 

@@ -1,0 +1,15 @@
+<div class="">
+
+
+
+<ul>
+    <li *ngFor="let question of questions">
+        <a [routerLink]="['/question', question?.id]">
+<span class="todo-item">Question {{question?.id}}</span>
+</a>
+</li>
+</ul>
+<!--app-question  [question]="question" ></app-question-->
+</div>
+
+

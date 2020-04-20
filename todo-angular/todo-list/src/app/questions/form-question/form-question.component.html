@@ -1,0 +1,27 @@
+<div class="form-container">
+    <div class="answers">
+        <ul>
+
+            <li *ngFor="let option of options">
+                <input type="radio"
+                [name]="option" 
+                class="answer-checkbox" 
+                />
+                <span>{{option.text}}</span>
+            </li>
+        </ul>
+    </div> 
+
+
+    <div class="group-btns"> 
+        <button class="btn" type="submit">PREV</button>
+        <button class="btn">NEXT</button>
+    </div>
+
+
+
+
+
+
+</div>
+   

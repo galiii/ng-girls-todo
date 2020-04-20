@@ -1,5 +1,14 @@
 <div class="todo-app">
-  <h1 class="app-title">Welcome {{title}}</h1>
+  <!--h1 class="app-title">Welcome {{title}}</h1-->
+ 
+<app-photo></app-photo>
 
-  <app-list-manager></app-list-manager>
+<ul class="nav-bar">
+  <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+  <li>  <a routerLink="/questions" routerLinkActive="active">Questions</a></li>
+
+</ul>
+  <router-outlet></router-outlet>
+<!--app-list-manager></app-list-manager-->
+    
 </div>
